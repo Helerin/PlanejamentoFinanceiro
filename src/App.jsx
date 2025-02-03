@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Cadastro from "./components/Cadastro";
+import Grafico from "./components/Grafico";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [gastos, setGastos] = useState([]);
+
+  const adicionarGasto = (gasto) => {
+    setGastos([...gastos, gasto]);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <div className="p-4">
+        <nav className="mb-4">
+          <Link to="/cadastro" className="mr-4">Cadastro</Link>
+          <Link to="/grafico">Gráfico</Link>
+        </nav>
+        <Routes>
+          <Route path="/cadastro" element={<Cadastro adicionarGasto={adicionarGasto} />} />
+          <Route path="/grafico" element={<Grafico gastos={gastos} />} />
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
