@@ -19,7 +19,7 @@ const Grafico = ({ gastos }) => {
 
   return (
     <div>
-      <h2 className="text-xl font-bold mb-4">Gráfico de Gastos por Categoria</h2>
+      <h2>Gráfico de Gastos por Categoria</h2>
       <Pie data={data} />
     </div>
   );
