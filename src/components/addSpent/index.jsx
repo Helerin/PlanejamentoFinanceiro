@@ -5,9 +5,9 @@ function index() {
   return (
     <div className='Spent'>
       <form className='SpentContainer'>
-        <input type="text" placeholder='Descrição' />
+        <input type="text" placeholder='description' />
 
-        <input type="text" placeholder='Preço'/>
+        <input type="text" placeholder='Price'/>
 
         <input type="date" name="" id="" />
 
