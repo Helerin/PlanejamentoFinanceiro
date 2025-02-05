@@ -1,21 +1,25 @@
 import React from "react";
+import "./ListaDeGastos.css";
 
 const ListaDeGastos = ({ gastos }) => {
-  if (gastos.length === 0) {
-    return <p className="text-gray-500">Nenhum gasto cadastrado ainda.</p>;
-  }
-
   return (
-    <ul className="space-y-2">
-      {gastos.map((gasto, index) => (
-        <li key={index} className="p-2 border rounded flex justify-between">
-          <span>{gasto.nome}</span>
-          <span>R$ {gasto.valor.toFixed(2)}</span>
-          <span>{gasto.categoria}</span>
-          <span>{gasto.data}</span>
-        </li>
-      ))}
-    </ul>
+    <div className="lista-container">
+      <h2>Lista de Gastos</h2>
+      {gastos.length > 0 ? (
+        <div className="gastos-list">
+          {gastos.map((gasto, index) => (
+            <div key={index} className="gasto-card">
+              <h3>{gasto.nome}</h3>
+              <p>Valor: R$ {gasto.valor.toFixed(2)}</p>
+              <p>Data: {gasto.data}</p>
+              <p>Categoria: {gasto.categoria}</p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p>Não há gastos cadastrados ainda.</p>
+      )}
+    </div>
   );
 };
 

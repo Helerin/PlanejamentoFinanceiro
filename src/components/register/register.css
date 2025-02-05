@@ -1,3 +1,76 @@
-h1{
-    color: blue;
-}
+/* Contêiner principal */
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto; /* Centraliza o formulário */
+    padding: 1rem;
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 8px; /* Arredondamento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background-color: #f9f9f9; /* Fundo claro */
+  }
+  
+  /* Título do formulário */
+  .register-container h2 {
+    text-align: center;
+    color: #333; /* Texto escuro */
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para o formulário */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espaço entre os campos */
+  }
+  
+  /* Estilo para os campos de entrada */
+  .form-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 6px; /* Arredondamento */
+    font-size: 1rem;
+    box-sizing: border-box; /* Inclui padding no tamanho total */
+  }
+  
+  /* Foco nos campos */
+  .form-input:focus {
+    border-color: #0077f9; /* Cor de destaque */
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 4px rgba(0, 119, 249, 0.5); /* Efeito de foco */
+  }
+  
+  /* Botão de submissão */
+  .form-button {
+    padding: 0.8rem;
+    background-color: #0077f9; /* Cor azul */
+    color: white; /* Texto branco */
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px; /* Arredondamento */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover no botão */
+  .form-button:hover {
+    background-color: #005bb5; /* Azul mais escuro */
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .register-container {
+      padding: 1rem;
+    }
+  
+    .form-input {
+      font-size: 0.9rem;
+    }
+  
+    .form-button {
+      font-size: 0.9rem;
+    }
+  }
+  
