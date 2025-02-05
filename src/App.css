@@ -1,32 +1,20 @@
 *{
-<<<<<<< HEAD
   padding: 0;
   margin: 0;
   text-decoration: none;
   border: none;
   
-=======
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    border: none;
-    
->>>>>>> ee8415fc13257af8d39927212d69fda90738cad3
 }
   
 body{
-    width: 100%;
-    
+  width: 100%;
+}  
 
-<<<<<<< HEAD
 body{
   width: 100%;
   
 
   background-color: burlywood;
-=======
-    background-color: burlywood;
->>>>>>> ee8415fc13257af8d39927212d69fda90738cad3
 }
   
 #root{
@@ -37,18 +25,5 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-<<<<<<< HEAD
-#root{
-  width: 100%;
-  height: 100%;
-  
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-=======
->>>>>>> ee8415fc13257af8d39927212d69fda90738cad3
 }
-  
+

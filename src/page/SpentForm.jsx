@@ -1,16 +1,12 @@
 import React from 'react'
-
-import Header from '../components/header';
-import Footer from '../components/footer';
-import AllSpent from '../components/allSpents';
+import AddSpent from '../components/addSpent/index'
 
 function SpentForm() {
   return (
     <div>
-        <Header/>
         
-        <Footer/>
-
+        <AddSpent/>
+        
     </div>
   )
 }
