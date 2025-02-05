@@ -1,0 +1,46 @@
+{
+  "spent": [
+    {
+      "id": "38a0",
+      "description": "ifood",
+      "value": 50,
+      "date": "04/02/25",
+      "category": "alimentacao"
+    },
+    {
+      "id": "eae5",
+      "description": "uber",
+      "value": 14.79,
+      "date": "09/01/25",
+      "category": "transporte"
+    },
+    {
+      "id": "4ca6",
+      "description": "Mc Donalds",
+      "value": 90,
+      "date": "13/01/25",
+      "category": "comida"
+    },
+    {
+      "id": "a87b",
+      "description": "Gasolina",
+      "value": 310,
+      "date": "13/01/25",
+      "category": "transporte"
+    },
+    {
+      "id": "1be7",
+      "description": "Licenciamento",
+      "value": 480,
+      "date": "13/01/25",
+      "category": "imposto"
+    },
+    {
+      "id": "e843",
+      "description": "RTX 5090 MSI SUPRIM X LIQUID",
+      "value": 29.999,
+      "date": "13/01/25",
+      "category": "sonho"
+    }
+  ]
+}

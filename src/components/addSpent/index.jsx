@@ -15,7 +15,7 @@ function index() {
         <input type="text" placeholder='Valor' />
 >>>>>>> ee8415fc13257af8d39927212d69fda90738cad3
 
-        <input type="date" name="" id="" />
+        <input type="date" name="" id=""/>
 
         <select name="" id="">
 
@@ -31,7 +31,7 @@ function index() {
           
         </select>
 
-        <button type="submit"></button>
+        <button type="submit">Adicionar Gasto</button>
       </form>
     </div>
   )
