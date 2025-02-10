@@ -2,21 +2,19 @@ import React from 'react'
 
 import Header from '../components/header';
 import Footer from '../components/footer';
-import AddSpent from '../components/addSpent/index'
+import PieChart from '../components/PieChart';
 
-function SpentForm() {
+function ChartsPage() {
   return (
     <div>
         <Header/>
-        <AddSpent/>
+        <PieChart/>
         <Footer/>
     </div>
   )
 }
 
-export default SpentForm;
-
-
+export default ChartsPage; 
 
 
 

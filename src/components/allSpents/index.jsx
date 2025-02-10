@@ -17,7 +17,7 @@ function AllSpents() {
   
   return (
     <div className='SpentList'>
-      {spents.map((spent) => (<CardSpent key={spent.id} description={spent.description} value={spent.value} date = {spent.date} category = {spent.category} />))}
+      {spents.map((spent) => (<CardSpent key={spent.id} description={spent.description} value={spent.value} date = {spent.date} category = {spent.category} id={spent.id} />))}
     </div>
   )
 }

@@ -8,27 +8,6 @@
       "category": "alimentacao"
     },
     {
-      "id": "eae5",
-      "description": "uber",
-      "value": 14.79,
-      "date": "09/01/25",
-      "category": "transporte"
-    },
-    {
-      "id": "4ca6",
-      "description": "Mc Donalds",
-      "value": 90,
-      "date": "13/01/25",
-      "category": "comida"
-    },
-    {
-      "id": "a87b",
-      "description": "Gasolina",
-      "value": 310,
-      "date": "13/01/25",
-      "category": "transporte"
-    },
-    {
       "id": "1be7",
       "description": "Licenciamento",
       "value": 480,
@@ -36,11 +15,32 @@
       "category": "imposto"
     },
     {
-      "id": "e843",
-      "description": "RTX 5090 MSI SUPRIM X LIQUID",
-      "value": 29.999,
-      "date": "13/01/25",
-      "category": "sonho"
+      "id": "1747",
+      "description": "FORD",
+      "value": "50.480",
+      "date": "2024-01-31",
+      "category": "imprevisto"
+    },
+    {
+      "id": "6efc",
+      "description": "placa de video nova",
+      "value": "4000",
+      "date": "2025-02-09",
+      "category": "outro"
+    },
+    {
+      "id": "b1b3",
+      "description": "fone de ouvido",
+      "value": "390",
+      "date": "2025-02-09",
+      "category": "outro"
+    },
+    {
+      "id": "cdd3",
+      "description": "tv ",
+      "value": "5000",
+      "date": "2025-02-09",
+      "category": "outro"
     }
   ]
 }
